@@ -7,20 +7,20 @@ from part5 import isotriangle
 program = int(input("Which program (1, 2, 3, 4, or 5)?"))
 
 if program == 1:
-  number = int(input("Enter a number: "))
-  print(isprime(number))
+  base = float(input("Enter a base: "))
+  height = float(input("Enter a height: "))
+  print(trianglearea(base, height))
   
 if program == 2:
   number = int(input("Enter a number: "))
-  print(twodigiteven(number))
+  print(twodigitodd(number))
 
 if program == 3:
-  month = input("Month: ")
-  year = int(input("Year: "))
-  print(daysinmonth(month, year))
+   number = int(input("Input number: "))
+   print(isprime(number))
   
 if program == 4:
-  side1 = int(input("Side 1: "))
-  side2 = int(input("Side 2: "))
-  side3 = int(input("Side 3: "))
+  side1 = float(input("Side 1: "))
+  side2 = float(input("Side 2: "))
+  side3 = float(input("Side 3: "))
   print(possibletriangle(side1, side2, side3))
