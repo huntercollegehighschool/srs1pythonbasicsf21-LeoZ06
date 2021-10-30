@@ -24,3 +24,7 @@ if program == 4:
   side2 = float(input("Side 2: "))
   side3 = float(input("Side 3: "))
   print(possibletriangle(side1, side2, side3))
+
+if program == 5:
+  leg = int(input("Leg length: "))
+  isotriangle(leg)

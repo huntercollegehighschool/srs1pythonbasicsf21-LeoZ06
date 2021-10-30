@@ -34,6 +34,12 @@ Enter the leg length: 5
 """
 
 def isotriangle(leg):
-  for i in range (0, leg + 1):
-    if leg - i / 2 > 0:
-      insert(" ")
+  for i in range (1, leg + 1):
+    print("*")
+
+
+#Spaces = (leg - i)/2
+#for i in range (0, Spaces/2 + 1):
+#  print(" ")
+#else:
+#  print("*")
